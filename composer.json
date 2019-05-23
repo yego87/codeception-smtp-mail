@@ -1,7 +1,18 @@
 {
-  "name": "ahmedsamy/codeception-smtp-mail",
-  "description": "Test emails in your Codeception acceptance tests",
-  "homepage": "https://github.com/AhmedSamy/codeception-smtp-mail",
+"repositories": [
+    {
+        "type":"package",
+        "package": {
+          "name": "yego87/codeception-smtp-mail",
+          "version":"master",
+          "source": {
+              "url": "https://github.com/yego87/codeception-smtp-mail.git",
+              "type": "git",
+              "reference":"master"
+            }
+        }
+    }
+],
   "license": "MIT",
   "keywords": [
     "gmail",
